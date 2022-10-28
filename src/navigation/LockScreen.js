@@ -165,7 +165,11 @@ export default function LockScreen(props) {
             <Text
               style={{ ...styles.whitetext, fontWeight: "bold", opacity: 0.8 }}
             >
-              <Ionicons name="backspace-outline" size="30" color={"white"} />
+              {Platform.OS === "android" ? (
+                "X"
+              ) : (
+                <Ionicons name="backspace-outline" size="30" color={"white"} />
+              )}
             </Text>
           </TouchableOpacity>
           <TouchableOpacity
@@ -192,11 +196,15 @@ export default function LockScreen(props) {
             style={{ ...styles.passCircle, backgroundColor: "#007aff" }}
           >
             <Text style={{ ...styles.whitetext, fontWeight: "bold" }}>
-              <Ionicons
-                name="arrow-forward-outline"
-                size="30"
-                color={"white"}
-              />
+              {Platform.OS === "android" ? (
+                "GO"
+              ) : (
+                <Ionicons
+                  name="arrow-forward-outline"
+                  size="30"
+                  color={"white"}
+                />
+              )}
             </Text>
           </TouchableOpacity>
         </View>
