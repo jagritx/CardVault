@@ -16,6 +16,8 @@ Built using React Native.
 
 ## Screenshots
 
+![App Screenshot](https://user-images.githubusercontent.com/63954010/224294098-86a1a4d0-b71c-4d51-9856-bc969b36576c.png)
+
 ![App Screenshot](https://user-images.githubusercontent.com/63954010/224292491-7c8cbd84-c1fd-4241-af04-72cb263e85a3.png)
 
 ![App Screenshot](https://user-images.githubusercontent.com/63954010/224292503-ee8f4adf-3264-4c8f-8faf-595fe1b0d7b5.png)
